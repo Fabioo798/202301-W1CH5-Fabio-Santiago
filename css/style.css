@@ -94,5 +94,8 @@ html {
   padding: 0px;
   gap: 60px;
 }
+.footer__contact {
+  background-color: pink;
+}
 
 /*# sourceMappingURL=style.css.map */
