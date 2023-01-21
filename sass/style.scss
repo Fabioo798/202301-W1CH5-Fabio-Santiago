@@ -1,3 +1,57 @@
-* {
-  box-sizing: border-box;
+// page2 (Popular Destinations)
+
+.page2 * {
+}
+
+.page2 {
+  background-color: white;
+  &__title {
+  }
+  &__selector {
+  }
+  &__gallery {
+    &__article {
+      &__image {
+      }
+      &__title {
+      }
+      &__address {
+      }
+    }
+  }
+}
+
+
+
+.footer * {
+  background-color: black;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+
+  // display: display;
+  // flex-direction: column;
+  // flex-wrap: wrap;
+  // justify-content: space-between;
+  // align-items: flex-start;
+
+  &__logo {
+  }
+  &__menu {
+  }
+  &__info {
+  }
+  &__contact {
+  }
+  &__rrss {
+  }
 }
