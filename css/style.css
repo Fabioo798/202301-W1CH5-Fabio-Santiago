@@ -94,5 +94,8 @@ html {
   padding: 0px;
   gap: 60px;
 }
+.footer__menu {
+  background-color: red;
+}
 
 /*# sourceMappingURL=style.css.map */
