@@ -94,8 +94,12 @@ html {
   padding: 0px;
   gap: 60px;
 }
+feature/conflictsantiago
 .footer__contact {
   background-color: pink;
+
+.footer__menu {
+  background-color: red;
 }
 
 /*# sourceMappingURL=style.css.map */

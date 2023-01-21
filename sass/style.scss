@@ -83,7 +83,6 @@ html {
   }
 }
 
-
 .footer * {
   background-color: black;
   color: white;
@@ -108,6 +107,7 @@ html {
   &__logo {
   }
   &__menu {
+    background-color: red;
   }
   &__info {
   }
@@ -117,4 +117,3 @@ html {
   &__rrss {
   }
 }
-
