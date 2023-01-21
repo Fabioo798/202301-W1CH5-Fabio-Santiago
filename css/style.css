@@ -2,4 +2,81 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
+.page1 {
+  font-family: "Playfair Display", serif;
+  background: transparent;
+  background: url("/sass/page1backgorund.jpg");
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6.2rem;
+  height: 1222px;
+}
+.page1 header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.page1__logo {
+  width: 140px;
+}
+.page1__menu {
+  width: 40px;
+}
+.page1__titlepage {
+  color: white;
+  font-size: x-large;
+}
+.page1__titlepage p {
+  font-size: large;
+}
+.page1__form {
+  font-family: "Rubik", sans-serif;
+  background-color: white;
+  display: grid;
+  border-radius: 15px;
+  gap: 1rem;
+  padding: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: 467px;
+}
+.page1__form input {
+  border-color: transparent;
+  border-bottom: 1px solid black;
+}
+.page1__form input:last-child {
+  margin-bottom: 50px;
+}
+.page1__form label {
+  opacity: 0.7;
+}
+.page1__book {
+  display: flex;
+  background-color: #ff7757;
+  justify-content: space-between;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  padding: 30px;
+  color: #ffffff;
+  padding-left: 0px;
+  height: 128px;
+}
+.page1__book button {
+  background-color: transparent;
+  color: white;
+  width: 400px;
+  font-size: xx-large;
+  border-color: transparent;
+}
+.page1__arrow {
+  width: 21px;
+}
+
 /*# sourceMappingURL=style.css.map */
