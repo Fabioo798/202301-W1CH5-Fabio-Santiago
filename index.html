@@ -5,20 +5,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="media/logo-page.png" type="image/x-icon">
+  <link rel="shortcut icon" href="media/logopage.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 
   <title>Travelling</title>
 </head>
 
 <body>
-  <section class="Page1">
+  <section class="page1">
+
     <header>
-      <span class="logo">
-        <img src="media/Header-logo.svg" alt="Header logo" />
-      </span>
-      <span class="burguer-menu">
-        <img src="media/Hamnburguer-menu.svg" alt="Burguer menu" />
-      </span>
+      <img class="page1__logo" src="media/Headerlogo.svg" alt="Header logo" />
+
+      <img class="page1__menu" src="media/Hamnburguermenu.svg" alt="Burguer menu" />
+
       <div hidden>
         <ul>
           <li>Home</li>
@@ -33,27 +35,214 @@
         <p>Sign up</p>
       </div>
     </header>
-    <div class="title page">
-      <h1>start your unforgettable journey with us</h1>
-      <p>the best travel for your journey beings now</p>
+
+    <div class="page1__titlepage">
+      <h1>Start your unforgettable journey with us</h1>
+      <p>The best travel for your journey beings now</p>
     </div>
-    <nav class="Form">
-      <form>
-        <label for="destination">DESTINATION: </label>
+
+    <nav>
+      <form class="page1__form">
+
+        <label for="destination">DESTINATION </label>
         <input type="text" name="destination" id="destination">
-        <label for="person">PERSON:</label>
+
+
+        <label for="person">PERSON</label>
         <input type="text" name="person" id="person">
+
         <label for="check-in">CHECK-IN</label>
         <input type="text" name="check-in" id="check-in">
+
         <label for="check-out">CHECK-OUT</label>
         <input type="text" name="check-out" id="check-out">
-        <input type="submit">
+
       </form>
-      <img src="media/right-arrow.svg" alt="right arrow" />
+
+      <div class="page1__book">
+        <button type="booknow">Book Now</button>
+        <img class="page1__arrow" src="media/rightarrow.svg" alt="right arrow" />
+      </div>
+
     </nav>
-    <img class="image1_background" src="media/page1_backgorund.jpg" alt="image1_background">
+    <!-- <img class="image1_background" src="media/page1backgorund.jpg" alt="image1_background"> -->
   </section>
 
+  <section class="page2">
+    <div class="page2_info">
+      <h2>Popular Destinations</h2>
+      <p>Most popular destinations around the world, from historical places to natural wonders.</p>
+    </div>
+    <img class="Page2_Berlin" src="media/Berlingmonument.svg" alt="Berlin monument">
+    <span class="page2_slides">
+      <img src="media/Slideleft.svg" alt="Slide-left">
+      <img src="media/Slideright.svg" alt="Slide-right">
+    </span>
+  </section>
+
+  <section class="page3">
+    <div class="page3_info">
+      <h2>Special offer</h2>
+      <p>Chek out our special offer and discounts</p>
+    </div>
+    <img src="media/Lisbon.svg" alt="Lisbon">
+    <img src="media/Texblock.svg" alt="text-block">
+    <span class="page3_slides">
+      <img src="media/Slideleft.svg" alt="Slide-left">
+      <img src="media/Slideright.svg" alt="Slide-right">
+    </span>
+  </section>
+
+  <section class="page4">
+    <div class="page5_info">
+      <h2>our blog</h2>
+      <p>an insight the incredible experience in the world</p>
+    </div>
+    <img src="media/Italy.svg" alt="Italy">
+    <article class="page4_paragraph">
+      <h2>beautiful italy, let's travel</h2>
+      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
+        will give
+        you a complete account of the system and expound the actual teachings of the great explorer of the truth, the
+        master-
+        builder of human happiness. No one rejects, dislike, or avoids plasure itself, because it is pleasure, but
+        because those
+        who do not know how to pursue pleasure rationally encounter consequences that are extremly painful. Nor again is
+        there
+        anyone who loves or pursues.
+      </p>
+      <div class="page4_readmore">
+        <p>read more</p>
+        <img src="media/rightarrow.svg" alt="right arrow">
+      </div>
+    </article>
+  </section>
+
+  <section class="page5">
+    <div class="page5_info">
+      <h2>Trip planners</h2>
+      <p>20 years from now you will be more disappointed by the things that you didn’t do. Stop regretting and start
+        travelling, start throwing off the bowlines.</p>
+    </div>
+    <p class="page5_button">VIEW ALL TRIPS PLANS</p>
+    <div class="page5_rometrip">
+      <img src="media/page5_rome.svg" alt="Rome">
+      <div class="page5_guide&dive">
+        <p>GUIDED TOUR</p>
+        <P>€99/DAY</P>
+      </div>
+      <div class=page5_capital>
+        <p>Rome City Tour</p>
+      </div>
+      <div class="page5_stars">
+        <img src="media/stars.svg" alt="star-ratings">
+        <img src="media/stars.svg" alt="star-ratings">
+        <img src="media/stars.svg" alt="star-ratings">
+        <img src="media/stars.svg" alt="star-ratings">
+        <img src="media/stars.svg" alt="star-ratings">
+        <p>7 Days Tour</p>
+      </div>
+    </div>
+
+    <div class="page5_paristrip">
+      <img src="media/Paris.svg" alt="Paris">
+      <div class="page5_guide&dive">
+        <p>GUIDED TOUR</p>
+        <P>€95/DAY</P>
+      </div>
+      <div class=page5_capital>
+        <p>Paris City Tour</p>
+      </div>
+      <div class="page5_stars">
+        <img src="media/stars.svg" alt="star-ratings">
+        <img src="media/stars.svg" alt="star-ratings">
+        <img src="media/stars.svg" alt="star-ratings">
+        <img src="media/stars.svg" alt="star-ratings">
+        <img src="media/stars.svg" alt="star-ratings">
+        <p>7 Days Tour</p>
+      </div>
+    </div>
+
+    <div class="page5_barcelonatrip">
+      <img src="media/barcelona.svg" alt="barcelona">
+      <div class="page5_guide&dive">
+        <p>GUIDED TOUR</p>
+        <P>€89/DAY</P>
+      </div>
+      <div class=page5_capital>
+        <p>Barcelona City Tour</p>
+      </div>
+      <div class="page5_stars">
+        <img src="media/stars.svg" alt="star-ratings">
+        <img src="media/stars.svg" alt="star-ratings">
+        <img src="media/stars.svg" alt="star-ratings">
+        <img src="media/stars.svg" alt="star-ratings">
+        <img src="media/stars.svg" alt="star-ratings">
+        <p>7 Days Tour</p>
+      </div>
+    </div>
+
+    <div class="page5_budapesttrip">
+      <img src="media/budapest.svg" alt="Budapest">
+      <div class="page5_guide&dive">
+        <p>GUIDED TOUR</p>
+        <P>€89/DAY</P>
+      </div>
+      <div class=page5_capital>
+        <p>Budapest City Tour</p>
+      </div>
+      <div class="page5_stars">
+        <img src="media/stars.svg" alt="star-ratings">
+        <img src="media/stars.svg" alt="star-ratings">
+        <img src="media/stars.svg" alt="star-ratings">
+        <img src="media/stars.svg" alt="star-ratings">
+        <img src="media/stars.svg" alt="star-ratings">
+        <p>7 Days Tour</p>
+      </div>
+    </div>
+
+    <div class="page6">
+      <div class="page6_info">
+        <h2>Traveler's experience</h2>
+        <p>Here are some awesome feedback from our traveleres</p>
+      </div>
+      <img src="media/Avatar.svg" alt="avatar">
+      <div class="page6_review">
+        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I
+          will give
+          you a complete account of the system and expound the actual teachings of the great explorer of the truth, the
+          master-
+          builder of human happiness.</p>
+        <span class="page6_stars">
+          <img src="media/stars.svg" alt="star-ratings">
+          <img src="media/stars.svg" alt="star-ratings">
+          <img src="media/stars.svg" alt="star-ratings">
+          <img src="media/stars.svg" alt="star-ratings">
+          <img src="media/stars.svg" alt="star-ratings">
+        </span>
+        <p class="page6_reviewer">
+          John Doe
+        </p>
+        <p>Acoountant</p>
+      </div>
+      <span class="page6_slides">
+        <img src="media/Slideleft.svg" alt="Slide-left">
+        <img src="media/Slideright.svg" alt="Slide-right">
+      </span>
+    </div>
+    <div class="newsletter">
+      <h2 class="newsletter_title">Our Newsletter</h2>
+      <nav class="newsletter_f">
+        <form>
+          <label for="check-out">E-MAIL</label>
+          <input type="text" name="e-mail" id="e-mail">
+          <input type="submit">
+        </form>
+      </nav>
+    </div>
+
+
+  </section>
 </body>
 
 </html>
