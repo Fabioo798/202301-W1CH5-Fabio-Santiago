@@ -523,6 +523,8 @@ body {
   color: white;
   list-style: none;
   text-decoration: none;
+  font-family: "Rubik";
+  text-align: left;
 }
 
 .footer {
@@ -533,11 +535,22 @@ body {
   padding: 0px;
   gap: 60px;
 }
-.footer__menu {
-  background-color: red;
+.footer__rrss ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
-.footer__contact {
-  background-color: pink;
+.footer__rrss img {
+  width: 24px;
+}
+
+@media screen and (min-width: 400px) {
+  section {
+    flex-direction: row;
+  }
+  .footer {
+    flex-direction: row;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

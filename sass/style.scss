@@ -1,4 +1,6 @@
 $color-principal: #ff7757;
+$primary-font-family: "Playfair Display";
+$secondary-font-family: "Rubik";
 
 * {
   box-sizing: border-box;
@@ -595,6 +597,8 @@ body {
   color: white;
   list-style: none;
   text-decoration: none;
+  font-family: $secondary-font-family;
+  text-align: left;
 }
 
 .footer {
@@ -605,22 +609,31 @@ body {
   padding: 0px;
   gap: 60px;
 
-  // display: display;
-  // flex-direction: column;
-  // flex-wrap: wrap;
-  // justify-content: space-between;
-  // align-items: flex-start;
-
   &__logo {
   }
   &__menu {
-    background-color: red;
   }
   &__info {
   }
   &__contact {
-    background-color: pink;
   }
   &__rrss {
+    ul {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+    img {
+      width: 24px;
+    }
+  }
+}
+
+@media screen and (min-width: 400px) {
+  section {
+    flex-direction: row;
+  }
+  .footer {
+    flex-direction: row;
   }
 }
