@@ -629,10 +629,17 @@ body {
   }
 }
 
-@media screen and (min-width: 400px) {
-  section {
-    flex-direction: row;
+@media screen and (min-width: 768px) {
+  .page5 {
+    height: 1000px;
   }
+
+  .page5__cities {
+    display: flex;
+    flex-direction: row;
+    padding-left: 950px;
+  }
+
   .footer {
     flex-direction: row;
   }
