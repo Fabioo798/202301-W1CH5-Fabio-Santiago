@@ -1,0 +1,84 @@
+header {
+  font-family: "Playfair Display", serif;
+  background: transparent;
+  background: url("/media/page1backgorund.jpg");
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6.2rem;
+  height: 1222px;
+
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    &__logo {
+      width: 140px;
+    }
+    &__menu {
+      width: 40px;
+    }
+    &__hiddenmenu {
+      display: none;
+    }
+  }
+
+  .titlepage {
+    color: white;
+    font-size: large;
+
+    p {
+      font-size: large;
+    }
+  }
+
+  .form {
+    font-family: "Rubik", sans-serif;
+    background-color: white;
+    display: grid;
+    border-radius: 15px;
+    gap: 1rem;
+    padding: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 467px;
+    input {
+      border-color: transparent;
+      border-bottom: 1px solid black;
+    }
+    input:last-child {
+      margin-bottom: 50px;
+    }
+    label {
+      opacity: 0.7;
+    }
+  }
+  .booking {
+    display: flex;
+    background-color: #ff7757;
+    justify-content: space-between;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 30px;
+    color: #ffffff;
+    padding-left: 0px;
+    height: 128px;
+
+    &__button {
+      background-color: transparent;
+      color: white;
+      width: 400px;
+      font-size: xx-large;
+      border-color: transparent;
+    }
+
+    &__arrow {
+      width: 21px;
+    }
+  }
+}
+
+@media screen and (min-width: 400px) {
+}

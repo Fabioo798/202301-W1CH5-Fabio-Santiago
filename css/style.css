@@ -1,3 +1,79 @@
+header {
+  font-family: "Playfair Display", serif;
+  background: transparent;
+  background: url("/media/page1backgorund.jpg");
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6.2rem;
+  height: 1222px;
+}
+header .head {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+header .head__logo {
+  width: 140px;
+}
+header .head__menu {
+  width: 40px;
+}
+header .head__hiddenmenu {
+  display: none;
+}
+header .titlepage {
+  color: white;
+  font-size: large;
+}
+header .titlepage p {
+  font-size: large;
+}
+header .form {
+  font-family: "Rubik", sans-serif;
+  background-color: white;
+  display: grid;
+  border-radius: 15px;
+  gap: 1rem;
+  padding: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: 467px;
+}
+header .form input {
+  border-color: transparent;
+  border-bottom: 1px solid black;
+}
+header .form input:last-child {
+  margin-bottom: 50px;
+}
+header .form label {
+  opacity: 0.7;
+}
+header .booking {
+  display: flex;
+  background-color: #ff7757;
+  justify-content: space-between;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  padding: 30px;
+  color: #ffffff;
+  padding-left: 0px;
+  height: 128px;
+}
+header .booking__button {
+  background-color: transparent;
+  color: white;
+  width: 400px;
+  font-size: xx-large;
+  border-color: transparent;
+}
+header .booking__arrow {
+  width: 21px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -10,79 +86,6 @@ body {
   margin: 0px;
 }
 
-.page1 {
-  font-family: "Playfair Display", serif;
-  background: transparent;
-  background: url("/sass/page1backgorund.jpg");
-  background-size: cover;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 6.2rem;
-  height: 1222px;
-}
-.page1 header {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-}
-.page1__logo {
-  width: 140px;
-}
-.page1__menu {
-  width: 40px;
-}
-.page1__titlepage {
-  color: white;
-  font-size: x-large;
-}
-.page1__titlepage p {
-  font-size: large;
-}
-.page1__form {
-  font-family: "Rubik", sans-serif;
-  background-color: white;
-  display: grid;
-  border-radius: 15px;
-  gap: 1rem;
-  padding: 20px;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-  height: 467px;
-}
-.page1__form input {
-  border-color: transparent;
-  border-bottom: 1px solid black;
-}
-.page1__form input:last-child {
-  margin-bottom: 50px;
-}
-.page1__form label {
-  opacity: 0.7;
-}
-.page1__book {
-  display: flex;
-  background-color: #ff7757;
-  justify-content: space-between;
-  border-radius: 15px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  padding: 30px;
-  color: #ffffff;
-  padding-left: 0px;
-  height: 128px;
-}
-.page1__book button {
-  background-color: transparent;
-  color: white;
-  width: 400px;
-  font-size: xx-large;
-  border-color: transparent;
-}
-.page1__arrow {
-  width: 21px;
-}
-
 .page2 {
   display: flex;
   flex-direction: column;
@@ -93,7 +96,7 @@ body {
   width: 320px;
   height: 961px;
 }
-.page2_heading {
+.page2 .heading {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -102,7 +105,7 @@ body {
   width: 288px;
   height: 221px;
 }
-.page2_heading p {
+.page2 .heading p {
   width: 288px;
   height: 63px;
   font-family: "Rubik";
@@ -112,7 +115,7 @@ body {
   line-height: 21px;
   color: #767e86;
 }
-.page2__title {
+.page2 .heading__title {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -121,7 +124,7 @@ body {
   width: 288px;
   height: 126px;
 }
-.page2__title h2 {
+.page2 .heading__title h2 {
   width: 288px;
   height: 106px;
   font-family: "Playfair Display";
@@ -131,7 +134,7 @@ body {
   line-height: 53px;
   color: #172432;
 }
-.page2__title span {
+.page2 .heading__title__underline {
   text-decoration: underline;
   text-decoration-color: #ff7757;
   text-underline-offset: 20px;
@@ -412,7 +415,7 @@ body {
   padding: 80px 16px;
   gap: 100px;
   width: 320px;
-  height: 1508px;
+  height: 1708px;
 }
 .page6__heading {
   display: flex;
@@ -447,6 +450,7 @@ body {
   text-decoration: underline;
   text-decoration-color: #ff7757;
   text-underline-offset: 35px;
+  color: #172432;
 }
 .page6__review {
   font-family: "Rubik";
@@ -512,10 +516,9 @@ body {
   margin-top: 20px;
   border-color: transparent;
 }
-.page6__form__user ::placeholder {
+.page6 ::placeholder {
   color: white;
   text-align: center;
-  background-color: #ffe8d4;
 }
 
 .footer * {
